@@ -1,12 +1,17 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <Authors>Shay Rojansky;Austin Drenski;Yoh Deadfall;</Authors>
+    <Authors>NechaevAndCo</Authors>
     <Description>PostgreSQL/Npgsql provider for Entity Framework Core.</Description>
     <PackageTags>npgsql;postgresql;postgres;Entity Framework Core;entity-framework-core;ef;efcore;orm;sql</PackageTags>
-
+    
     <AssemblyName>Npgsql.EntityFrameworkCore.PostgreSQL</AssemblyName>
     <RootNamespace>Npgsql.EntityFrameworkCore.PostgreSQL</RootNamespace>
+    <PackageId>Npgsql-ABAC.EntityFrameworkCore.PostgreSQL</PackageId>
+    <PackageProjectUrl>https://github.com/NechaevDA/efcore.pg</PackageProjectUrl>
+    <AssemblyVersion>5.0.7.0</AssemblyVersion>
+    <FileVersion>5.0.7.0</FileVersion>
+    <Version>5.0.8</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -14,7 +19,7 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore" PrivateAssets="none" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" PrivateAssets="none" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Abstractions" PrivateAssets="none" />
-    <PackageReference Include="Npgsql" />
+    <PackageReference Include="Npgsql-ABAC-Service" Version="5.0.5" />
   </ItemGroup>
 
   <ItemGroup>
